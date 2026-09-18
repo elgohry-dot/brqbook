@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "category": {
+      "title": "Category",
+      "description": "Educational stage or category",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique category identifier" },
+        "name": { "type": "string", "maxLength": 100 },
+        "description": { "type": "string", "maxLength": 500 },
+        "icon": { "type": "string", "maxLength": 10 },
+        "order": { "type": "number" }
+      },
+      "required": ["id", "name"]
+    },
+    "subject": {
+      "title": "Subject",
+      "description": "Educational subject within a category",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "name": { "type": "string", "maxLength": 100 },
+        "icon": { "type": "string", "maxLength": 10 },
+        "description": { "type": "string", "maxLength": 500 }
+      },
+      "required": ["id", "categoryId", "name"]
+    },
+    "book": {
+      "title": "Book",
+      "description": "Educational book or PDF summary document",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "subjectId": { "type": "string" },
+        "teacherName": { "type": "string", "maxLength": 100 },
+        "title": { "type": "string", "maxLength": 200 },
+        "description": { "type": "string", "maxLength": 1000 },
+        "fileUrl": { "type": "string", "maxLength": 500 },
+        "fileSize": { "type": "string", "maxLength": 50 },
+        "pagesCount": { "type": "number" },
+        "downloadCount": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "categoryId", "subjectId", "title", "fileUrl"]
+    },
+    "activationCode": {
+      "title": "ActivationCode",
+      "description": "Activation code for student subscriptions",
+      "type": "object",
+      "properties": {
+        "code": { "type": "string", "maxLength": 50 },
+        "createdAt": { "type": "string" },
+        "durationDays": { "type": "number" },
+        "isUsed": { "type": "boolean" },
+        "usedByChatId": { "type": "string", "maxLength": 50 },
+        "usedAt": { "type": "string" }
+      },
+      "required": ["code", "durationDays", "isUsed"]
+    },
+    "studentSubscription": {
+      "title": "StudentSubscription",
+      "description": "Student subscription state and authorization",
+      "type": "object",
+      "properties": {
+        "chatId": { "type": "string", "maxLength": 50 },
+        "name": { "type": "string", "maxLength": 100 },
+        "username": { "type": "string", "maxLength": 100 },
+        "subscribedAt": { "type": "string" },
+        "expiresAt": { "type": "string" },
+        "codeUsed": { "type": "string", "maxLength": 50 },
+        "isBlocked": { "type": "boolean" }
+      },
+      "required": ["chatId", "subscribedAt", "expiresAt"]
+    },
+    "botSettings": {
+      "title": "BotSettings",
+      "description": "Configuration and settings for the Telegram bot",
+      "type": "object",
+      "properties": {
+        "botToken": { "type": "string", "maxLength": 200 },
+        "botUsername": { "type": "string", "maxLength": 100 },
+        "botName": { "type": "string", "maxLength": 100 },
+        "welcomeMessage": { "type": "string", "maxLength": 2000 },
+        "contactMessage": { "type": "string", "maxLength": 2000 },
+        "isWebhookSet": { "type": "boolean" },
+        "webhookUrl": { "type": "string", "maxLength": 500 }
+      },
+      "required": ["botUsername", "welcomeMessage"]
+    }
+  },
+  "firestore": {
+    "/categories/{categoryId}": {
+      "schema": { "$ref": "#/entities/category" },
+      "description": "Collection of categories and educational stages"
+    },
+    "/subjects/{subjectId}": {
+      "schema": { "$ref": "#/entities/subject" },
+      "description": "Collection of subjects"
+    },
+    "/books/{bookId}": {
+      "schema": { "$ref": "#/entities/book" },
+      "description": "Collection of educational books and PDFs"
+    },
+    "/codes/{codeId}": {
+      "schema": { "$ref": "#/entities/activationCode" },
+      "description": "Collection of subscription activation codes"
+    },
+    "/students/{studentId}": {
+      "schema": { "$ref": "#/entities/studentSubscription" },
+      "description": "Collection of subscribed Telegram students"
+    },
+    "/settings/{settingId}": {
+      "schema": { "$ref": "#/entities/botSettings" },
+      "description": "Bot configuration document"
+    }
+  }
+}

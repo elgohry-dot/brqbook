@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Telegram styled inline keyboard buttons */
+.tg-inline-btn {
+  background: rgba(43, 82, 120, 0.08);
+  border: 1px solid rgba(43, 82, 120, 0.2);
+  backdrop-filter: blur(4px);
+  transition: all 0.15s ease-in-out;
+}
+
+.tg-inline-btn:hover {
+  background: rgba(43, 82, 120, 0.18);
+  transform: translateY(-1px);
+}
+
+.tg-inline-btn:active {
+  transform: translateY(0);
+}
+

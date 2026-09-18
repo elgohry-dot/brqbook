@@ -1,0 +1,6 @@
+{
+  "name": "بوت تليجرام للكتب والطلاب - لوحة التحكم",
+  "description": "نظام متكامل لإدارة بوت تليجرام للكتب والمذكرات الدراسية مع أكواد تفعيل مخصصة للطلاب واشتراكات محددة المدة وأزرار تفاعلية شفافة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

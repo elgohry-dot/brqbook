@@ -1,0 +1,1208 @@
+{
+  "categories": [
+    {
+      "id": "cat-teachers",
+      "name": "كتب المدرسين",
+      "description": "مذكرات وملازم كبار مدرسي الثانوية العامة مقسمة حسب المواد والمعلمين",
+      "icon": "👨‍🏫",
+      "order": 1
+    },
+    {
+      "id": "cat-1789199874408",
+      "name": "تانية بكالوريا",
+      "description": ".",
+      "icon": "🎓",
+      "order": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "الصف الثالث الثانوي (الثانوية العامة)",
+      "description": "مذكرات المراجعات النهائية ونماذج الامتحانات للثانوية العامة",
+      "icon": "🎓",
+      "order": 3
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-teach-ar",
+      "categoryId": "cat-teachers",
+      "name": "اللغة العربية",
+      "icon": "📝",
+      "description": "مذكرات كبار مدرسي اللغة العربية"
+    },
+    {
+      "id": "sub-teach-eng",
+      "categoryId": "cat-teachers",
+      "name": "اللغة الإنجليزية",
+      "icon": "🇬🇧",
+      "description": "مذكرات كبار مدرسي اللغة الإنجليزية"
+    },
+    {
+      "id": "sub-teach-fr",
+      "categoryId": "cat-teachers",
+      "name": "اللغة الفرنسية",
+      "icon": "🇫🇷",
+      "description": "مذكرات كبار مدرسي الفرنساوي"
+    },
+    {
+      "id": "sub-teach-phy",
+      "categoryId": "cat-teachers",
+      "name": "الفيزياء",
+      "icon": "⚡",
+      "description": "مذكرات كبار مدرسي الفيزياء"
+    },
+    {
+      "id": "sub-teach-chem",
+      "categoryId": "cat-teachers",
+      "name": "الكيمياء",
+      "icon": "🧪",
+      "description": "مذكرات كبار مدرسي الكيمياء"
+    },
+    {
+      "id": "sub-teach-bio",
+      "categoryId": "cat-teachers",
+      "name": "الأحياء",
+      "icon": "🔬",
+      "description": "مذكرات كبار مدرسي الأحياء"
+    },
+    {
+      "id": "sub-teach-pure-math",
+      "categoryId": "cat-teachers",
+      "name": "الرياضيات البحتة",
+      "icon": "📐",
+      "description": "مذكرات مدرسي التفاضل والتكامل والجبر والهندسة"
+    },
+    {
+      "id": "sub-teach-appl-math",
+      "categoryId": "cat-teachers",
+      "name": "الرياضيات التطبيقية",
+      "icon": "⚙️",
+      "description": "مذكرات مدرسي الاستاتيكا والديناميكا"
+    },
+    {
+      "id": "sub-teach-geo",
+      "categoryId": "cat-teachers",
+      "name": "الجيولوجيا",
+      "icon": "🌍",
+      "description": "مذكرات كبار مدرسي الجيولوجيا وعلوم البيئة"
+    },
+    {
+      "id": "sub-teach-stat",
+      "categoryId": "cat-teachers",
+      "name": "الإحصاء",
+      "icon": "📊",
+      "description": "مذكرات مدرسي مادة الإحصاء"
+    },
+    {
+      "id": "sub-1",
+      "categoryId": "cat-3",
+      "name": "اللغة العربية",
+      "icon": "📝",
+      "description": "النحو، البلاغة، القراءة والنصوص"
+    },
+    {
+      "id": "sub-2",
+      "categoryId": "cat-3",
+      "name": "الفيزياء",
+      "icon": "⚡",
+      "description": "الكهربية والفيزياء الحديثة"
+    },
+    {
+      "id": "sub-3",
+      "categoryId": "cat-3",
+      "name": "الكيمياء",
+      "icon": "🧪",
+      "description": "الكيمياء العامة والعضوية"
+    },
+    {
+      "id": "sub-pure-math-cat3",
+      "categoryId": "cat-3",
+      "name": "الرياضيات البحتة",
+      "icon": "📐",
+      "description": "التفاضل والتكامل، الجبر العام والهندسة الفراغية"
+    },
+    {
+      "id": "sub-applied-math-cat3",
+      "categoryId": "cat-3",
+      "name": "الرياضيات التطبيقية",
+      "icon": "⚙️",
+      "description": "الاستاتيكا والديناميكا (الميكانيكا)"
+    },
+    {
+      "id": "sub-math-cat-bac",
+      "categoryId": "cat-1789199874408",
+      "name": "الرياضيات",
+      "icon": "📐",
+      "description": "دروس وتمارين وفروض مادة الرياضيات"
+    },
+    {
+      "id": "sub-english-cat3",
+      "categoryId": "cat-3",
+      "name": "اللغة الإنجليزية",
+      "icon": "🇬🇧",
+      "description": "قواعد ومفردات ومذكرات اللغة الإنجليزية - English Language"
+    },
+    {
+      "id": "sub-english-cat-bac",
+      "categoryId": "cat-1789199874408",
+      "name": "اللغة الإنجليزية",
+      "icon": "🇬🇧",
+      "description": "دروس وتمارين ومذكرات اللغة الإنجليزية - English"
+    },
+    {
+      "id": "sub-biology-cat3",
+      "categoryId": "cat-3",
+      "name": "الأحياء",
+      "icon": "🔬",
+      "description": "شرح ومذكرات علم الأحياء والجيولوجيا والوراثة"
+    },
+    {
+      "id": "sub-biology-cat-bac",
+      "categoryId": "cat-1789199874408",
+      "name": "الأحياء وعلوم الحياة والأرض",
+      "icon": "🔬",
+      "description": "دروس وملخصات مادة علوم الحياة والأرض والأحياء"
+    },
+    {
+      "id": "sub-statistics-cat3",
+      "categoryId": "cat-3",
+      "name": "الإحصاء",
+      "icon": "📊",
+      "description": "مذكرات وتلخيصات مادة الإحصاء وأسئلة الامتحانات"
+    },
+    {
+      "id": "sub-statistics-cat-bac",
+      "categoryId": "cat-1789199874408",
+      "name": "الإحصاء والاقتصاد",
+      "icon": "📊",
+      "description": "دروس وملخصات مادة الإحصاء والاقتصاد"
+    },
+    {
+      "id": "sub-teach-geography",
+      "categoryId": "cat-teachers",
+      "name": "الجغرافيا",
+      "icon": "🗺️",
+      "description": "مذكرات كبار مدرسي الجغرافيا"
+    },
+    {
+      "id": "sub-teach-history",
+      "categoryId": "cat-teachers",
+      "name": "التاريخ",
+      "icon": "📜",
+      "description": "مذكرات كبار مدرسي التاريخ"
+    },
+    {
+      "id": "sub-teach-azhar",
+      "categoryId": "cat-teachers",
+      "name": "كتب الأزهر",
+      "icon": "🕌",
+      "description": "مذكرات كبار مدرسي مواد الأزهر"
+    },
+    {
+      "id": "sub-cat1-geo",
+      "categoryId": "cat-1",
+      "name": "الجغرافيا",
+      "icon": "🗺️",
+      "description": "مذكرات وتلخيصات مادة الجغرافيا"
+    },
+    {
+      "id": "sub-cat1-hist",
+      "categoryId": "cat-1",
+      "name": "التاريخ",
+      "icon": "📜",
+      "description": "مذكرات وتلخيصات مادة التاريخ"
+    },
+    {
+      "id": "sub-cat1-azhar",
+      "categoryId": "cat-1",
+      "name": "كتب الأزهر",
+      "icon": "🕌",
+      "description": "كتب ومذكرات المواد الأزهرية"
+    },
+    {
+      "id": "sub-cat2-geo",
+      "categoryId": "cat-2",
+      "name": "الجغرافيا",
+      "icon": "🗺️",
+      "description": "مذكرات وتلخيصات مادة الجغرافيا"
+    },
+    {
+      "id": "sub-cat2-hist",
+      "categoryId": "cat-2",
+      "name": "التاريخ",
+      "icon": "📜",
+      "description": "مذكرات وتلخيصات مادة التاريخ"
+    },
+    {
+      "id": "sub-cat2-azhar",
+      "categoryId": "cat-2",
+      "name": "كتب الأزهر",
+      "icon": "🕌",
+      "description": "كتب ومذكرات المواد الأزهرية"
+    },
+    {
+      "id": "sub-cat3-geo",
+      "categoryId": "cat-3",
+      "name": "الجغرافيا",
+      "icon": "🗺️",
+      "description": "مذكرات وتلخيصات مادة الجغرافيا"
+    },
+    {
+      "id": "sub-cat3-hist",
+      "categoryId": "cat-3",
+      "name": "التاريخ",
+      "icon": "📜",
+      "description": "مذكرات وتلخيصات مادة التاريخ"
+    },
+    {
+      "id": "sub-cat3-azhar",
+      "categoryId": "cat-3",
+      "name": "كتب الأزهر",
+      "icon": "🕌",
+      "description": "كتب ومذكرات المواد الأزهرية"
+    },
+    {
+      "id": "sub-ar-cat-1",
+      "categoryId": "cat-1",
+      "name": "اللغة العربية",
+      "icon": "📝",
+      "description": "مذكرات وتلخيصات مادة اللغة العربية"
+    },
+    {
+      "id": "sub-eng-cat-1",
+      "categoryId": "cat-1",
+      "name": "اللغة الإنجليزية",
+      "icon": "🇬🇧",
+      "description": "مذكرات وتلخيصات مادة اللغة الإنجليزية"
+    },
+    {
+      "id": "sub-fr-cat-1",
+      "categoryId": "cat-1",
+      "name": "اللغة الفرنسية",
+      "icon": "🇫🇷",
+      "description": "مذكرات وتلخيصات مادة اللغة الفرنسية"
+    },
+    {
+      "id": "sub-phy-cat-1",
+      "categoryId": "cat-1",
+      "name": "الفيزياء",
+      "icon": "⚡",
+      "description": "مذكرات وتلخيصات مادة الفيزياء"
+    },
+    {
+      "id": "sub-chem-cat-1",
+      "categoryId": "cat-1",
+      "name": "الكيمياء",
+      "icon": "🧪",
+      "description": "مذكرات وتلخيصات مادة الكيمياء"
+    },
+    {
+      "id": "sub-bio-cat-1",
+      "categoryId": "cat-1",
+      "name": "الأحياء",
+      "icon": "🔬",
+      "description": "مذكرات وتلخيصات مادة الأحياء"
+    },
+    {
+      "id": "sub-pure-math-cat-1",
+      "categoryId": "cat-1",
+      "name": "الرياضيات البحتة",
+      "icon": "📐",
+      "description": "مذكرات وتلخيصات مادة الرياضيات البحتة"
+    },
+    {
+      "id": "sub-appl-math-cat-1",
+      "categoryId": "cat-1",
+      "name": "الرياضيات التطبيقية",
+      "icon": "⚙️",
+      "description": "مذكرات وتلخيصات مادة الرياضيات التطبيقية"
+    },
+    {
+      "id": "sub-geology-cat-1",
+      "categoryId": "cat-1",
+      "name": "الجيولوجيا",
+      "icon": "🌍",
+      "description": "مذكرات وتلخيصات مادة الجيولوجيا وعلوم البيئة"
+    },
+    {
+      "id": "sub-stat-cat-1",
+      "categoryId": "cat-1",
+      "name": "الإحصاء",
+      "icon": "📊",
+      "description": "مذكرات وتلخيصات مادة الإحصاء"
+    },
+    {
+      "id": "sub-ar-cat-2",
+      "categoryId": "cat-2",
+      "name": "اللغة العربية",
+      "icon": "📝",
+      "description": "مذكرات وتلخيصات مادة اللغة العربية"
+    },
+    {
+      "id": "sub-eng-cat-2",
+      "categoryId": "cat-2",
+      "name": "اللغة الإنجليزية",
+      "icon": "🇬🇧",
+      "description": "مذكرات وتلخيصات مادة اللغة الإنجليزية"
+    },
+    {
+      "id": "sub-fr-cat-2",
+      "categoryId": "cat-2",
+      "name": "اللغة الفرنسية",
+      "icon": "🇫🇷",
+      "description": "مذكرات وتلخيصات مادة اللغة الفرنسية"
+    },
+    {
+      "id": "sub-phy-cat-2",
+      "categoryId": "cat-2",
+      "name": "الفيزياء",
+      "icon": "⚡",
+      "description": "مذكرات وتلخيصات مادة الفيزياء"
+    },
+    {
+      "id": "sub-chem-cat-2",
+      "categoryId": "cat-2",
+      "name": "الكيمياء",
+      "icon": "🧪",
+      "description": "مذكرات وتلخيصات مادة الكيمياء"
+    },
+    {
+      "id": "sub-bio-cat-2",
+      "categoryId": "cat-2",
+      "name": "الأحياء",
+      "icon": "🔬",
+      "description": "مذكرات وتلخيصات مادة الأحياء"
+    },
+    {
+      "id": "sub-pure-math-cat-2",
+      "categoryId": "cat-2",
+      "name": "الرياضيات البحتة",
+      "icon": "📐",
+      "description": "مذكرات وتلخيصات مادة الرياضيات البحتة"
+    },
+    {
+      "id": "sub-appl-math-cat-2",
+      "categoryId": "cat-2",
+      "name": "الرياضيات التطبيقية",
+      "icon": "⚙️",
+      "description": "مذكرات وتلخيصات مادة الرياضيات التطبيقية"
+    },
+    {
+      "id": "sub-geology-cat-2",
+      "categoryId": "cat-2",
+      "name": "الجيولوجيا",
+      "icon": "🌍",
+      "description": "مذكرات وتلخيصات مادة الجيولوجيا وعلوم البيئة"
+    },
+    {
+      "id": "sub-stat-cat-2",
+      "categoryId": "cat-2",
+      "name": "الإحصاء",
+      "icon": "📊",
+      "description": "مذكرات وتلخيصات مادة الإحصاء"
+    },
+    {
+      "id": "sub-fr-cat-3",
+      "categoryId": "cat-3",
+      "name": "اللغة الفرنسية",
+      "icon": "🇫🇷",
+      "description": "مذكرات وتلخيصات مادة اللغة الفرنسية"
+    },
+    {
+      "id": "sub-geology-cat-3",
+      "categoryId": "cat-3",
+      "name": "الجيولوجيا",
+      "icon": "🌍",
+      "description": "مذكرات وتلخيصات مادة الجيولوجيا وعلوم البيئة"
+    }
+  ],
+  "books": [
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-cat3-hist",
+      "teacherName": "الإمتحان",
+      "title": "ملحق كتاب الإمتحان تاريخ شرح تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/WndKF",
+      "fileSize": "61MB",
+      "description": "",
+      "id": "book-1789383622986",
+      "downloadCount": 0,
+      "createdAt": "2026-09-14T11:00:22.986Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-cat3-hist",
+      "teacherName": "الإمتحان",
+      "title": "كتاب الإمتحان تاريخ شرح تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/MJ0Rc",
+      "fileSize": "134MB",
+      "description": "",
+      "id": "book-1789383491576",
+      "downloadCount": 0,
+      "createdAt": "2026-09-14T10:58:11.576Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-cat3-geo",
+      "teacherName": "الإمتحان",
+      "title": "كتاب الإمتحان جغرافيا أسئلة تالتة ثانوي 2027 🤎",
+      "fileUrl": "https://upfiles.com/ONsvITA",
+      "fileSize": "181MB",
+      "description": "",
+      "id": "book-1789383408451",
+      "downloadCount": 0,
+      "createdAt": "2026-09-14T10:56:48.451Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-cat3-geo",
+      "teacherName": "الامتحان",
+      "title": "ملحق كتاب الإمتحان جغرافيا شرح تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/vWB8",
+      "fileSize": "32MB",
+      "description": "",
+      "id": "book-1789383335612",
+      "downloadCount": 0,
+      "createdAt": "2026-09-14T10:55:35.612Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-cat3-geo",
+      "teacherName": "الامتحان",
+      "title": "كتاب الإمتحان جغرافيا شرح تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/Rpf6Qx",
+      "fileSize": "77MB",
+      "description": "",
+      "id": "book-1789383220378",
+      "downloadCount": 0,
+      "createdAt": "2026-09-14T10:53:40.378Z"
+    },
+    {
+      "id": "book-teach-4",
+      "categoryId": "cat-teachers",
+      "subjectId": "sub-teach-chem",
+      "teacherName": "مستر عبد الجواد",
+      "title": "الموسوعة في الكيمياء - ملزمة مستر عبد الجواد 2027",
+      "description": "الكيمياء العضوية والكهربية والاتزان الكيميائي مع أهم الأفكار الوزارية.",
+      "fileUrl": "https://upfiles.com/fPly8",
+      "fileSize": "62 MB",
+      "pagesCount": 150,
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T02:03:00.000Z"
+    },
+    {
+      "id": "book-teach-3",
+      "categoryId": "cat-teachers",
+      "subjectId": "sub-teach-phy",
+      "teacherName": "مستر محمود مجدي",
+      "title": "مذكرة الفيزياء الحديثة والكهربية - مستر محمود مجدي 2027",
+      "description": "شرح تفصيلي مع استنتاجات القوانين وتطبيقات بنك الأسئلة والوزارة.",
+      "fileUrl": "https://upfiles.com/IOwR",
+      "fileSize": "55 MB",
+      "pagesCount": 130,
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T02:02:00.000Z"
+    },
+    {
+      "id": "book-teach-2",
+      "categoryId": "cat-teachers",
+      "subjectId": "sub-teach-ar",
+      "teacherName": "مستر رضا الفاروق",
+      "title": "لواء اللغة العربية - مراجعات ومذكرات مستر رضا الفاروق 2027",
+      "description": "مذكرة البلاغة والنصوص والقراءة المتحررة مع نماذج امتحانات الثانوية العامة.",
+      "fileUrl": "https://upfiles.com/tKWMX9",
+      "fileSize": "48 MB",
+      "pagesCount": 140,
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T02:01:00.000Z"
+    },
+    {
+      "id": "book-teach-1",
+      "categoryId": "cat-teachers",
+      "subjectId": "sub-teach-ar",
+      "teacherName": "مستر محمد صلاح",
+      "title": "مذكرة بسطتهالك في النحو الشامل 2027 - مستر محمد صلاح",
+      "description": "شرح قواعد النحو كاملة بأسلوب الخرائط الذهنية مع بنك تدريبات شامل.",
+      "fileUrl": "https://upfiles.com/7aoCZ",
+      "fileSize": "35 MB",
+      "pagesCount": 110,
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T02:00:00.000Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-statistics-cat3",
+      "title": "إجابات كتاب المعاصر إحصاء تالتة ثانوي 2027 ❤️",
+      "description": "",
+      "fileUrl": "https://upfiles.com/xHehiEmp",
+      "fileSize": "30MB",
+      "id": "book-1789264502011",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:55:02.011Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-statistics-cat3",
+      "title": "كتاب المعاصر إحصاء تالتة ثانوي 2027 ❤️",
+      "description": "",
+      "fileUrl": "https://upfiles.com/KOBBC",
+      "fileSize": "102MB",
+      "id": "book-1789264331841",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:52:11.841Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-applied-math-cat3",
+      "title": "ملحق كتاب المعاصر رياضيات تطبيقية \"جزء المراجعة المستمرة\" تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/TZuk",
+      "fileSize": "42MB",
+      "id": "book-1789263989061",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:46:29.061Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-applied-math-cat3",
+      "title": "كتاب المعاصر رياضيات تطبيقية جزء الشرح والتمارين الجزء التاني ⇦ الديناميكا تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/XWII0G",
+      "fileSize": "67MB",
+      "id": "book-1789263898476",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:44:58.476Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-applied-math-cat3",
+      "title": "كتاب المعاصر رياضيات تطبيقية جزء الشرح والتمارين الجزء الأول ⇦ الإستاتيكا تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/Q0qeQZ",
+      "fileSize": "56MB",
+      "id": "book-1789263812490",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:43:32.490Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-pure-math-cat3",
+      "title": "ملحق كتاب المعاصر رياضيات بحته \"جزء المراجعة المستمرة\" تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/vvkZIt",
+      "fileSize": "32MB",
+      "id": "book-1789263689441",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:41:29.441Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-pure-math-cat3",
+      "title": "كتاب المعاصر رياضيات بحته جزء الشرح والتمارين الجزء التاني ⇦ التفاضل والتكامل تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/229FiVW",
+      "fileSize": "80MB",
+      "id": "book-1789263571019",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:39:31.019Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-pure-math-cat3",
+      "title": "كتاب المعاصر رياضيات بحته جزء الشرح والتمارين الجزء الأول ⇦ الجبر والهندسة الفراغية تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/e3BY",
+      "fileSize": "69MB",
+      "id": "book-1789263464033",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:37:44.033Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "كتاب كيمياء ثانوية عامة شرح الجزء التاني تالتة ثانوي 2027  ❤️",
+      "description": "",
+      "fileUrl": "https://upfiles.com/fPly8",
+      "fileSize": "68MB",
+      "id": "book-1789263099239",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:31:39.239Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "كتاب كيمياء ثانوية عامة شرح الجزء الأول تالتة ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/rqSr",
+      "fileSize": "115MB",
+      "id": "book-1789263008599",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:30:08.599Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨ افوجادروا كيمياء 3ث 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/rJC0Zfi",
+      "fileSize": "53MB",
+      "id": "book-1789262856116",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:27:36.116Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨مندليف كيمياء الجزء الثالث 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/z4Vny4",
+      "fileSize": "70MB",
+      "id": "book-1789262706630",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:25:06.630Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨مندليف كيمياء الجزء الثالث 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/stzX",
+      "fileSize": "91MB",
+      "id": "book-1789262648765",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:24:08.765Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨مندليف كيمياء الجزء الاول 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/CwtKd",
+      "fileSize": "166MB",
+      "id": "book-1789262579199",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:22:59.199Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨ملحق الوافي كيمياء 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/gSprG",
+      "fileSize": "37MB",
+      "id": "book-1789262388195",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:19:48.195Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨الوافي كيمياء اسئلة2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/RmjJMk",
+      "fileSize": "67MB",
+      "id": "book-1789262200316",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:16:40.316Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨ملحق التفوق كيمياء 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/Q3SDMk0D",
+      "fileSize": "63MB",
+      "id": "book-1789262077929",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:14:37.929Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨التفوق كيمياء الجزء الثاني 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/ru2cUFj",
+      "fileSize": "48MB",
+      "id": "book-1789261988088",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:13:08.088Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨التفوق كيمياء الجزء الاول 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/CW52KknT",
+      "fileSize": "75",
+      "id": "book-1789261886636",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:11:26.636Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨ اجابات الامتحان كيمياء 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/EJ7l1",
+      "fileSize": "45MB",
+      "id": "book-1789261778894",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:09:38.894Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-3",
+      "title": "✨ الامتحان كيمياء تالته ثانوي 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/t3THMV3z",
+      "fileSize": "163MB",
+      "id": "book-1789261574030",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:06:14.030Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-2",
+      "title": "✨اجابات الوافي فيزياء 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/MnLRysoJ",
+      "fileSize": "20MB",
+      "id": "book-1789261422867",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:03:42.867Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-2",
+      "title": "✨ملحق الوافي فيزياء اسئلة 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/QXnNjhT0",
+      "fileSize": "52MB",
+      "id": "book-1789261291918",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T01:01:31.918Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-2",
+      "title": "✨الوافي فيزياء اسئلة 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/Jck7",
+      "fileSize": "119MB",
+      "id": "book-1789261175913",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:59:35.913Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-2",
+      "title": "✨ اجابات الامتحان فيزياء 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/Cl6xZ",
+      "fileSize": "56MB",
+      "id": "book-1789260992516",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:56:32.516Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-2",
+      "title": "✨ الامتحان فيزياء اسئلة 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/IOwR",
+      "fileSize": "218MB",
+      "id": "book-1789260874858",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:54:34.858Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-2",
+      "title": "✨ الامتحان فيزياء شرح 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/eFMiaXk",
+      "fileSize": "119MB",
+      "id": "book-1789260738706",
+      "downloadCount": 1,
+      "createdAt": "2026-09-13T00:52:18.706Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-biology-cat3",
+      "title": "✨ التفوق احياء اسئلة جزء 2 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/pmrM4C",
+      "fileSize": "185MB",
+      "id": "book-1789260594425",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:49:54.425Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-biology-cat3",
+      "title": "✨ التفوق احياء اسئلة جزء 1 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/NgQyk",
+      "fileSize": "141MB",
+      "id": "book-1789260539507",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:48:59.507Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-biology-cat3",
+      "title": "✨ التفوق احياء تاسيس 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/PD9f",
+      "fileSize": "73MB",
+      "id": "book-1789260399932",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:46:39.932Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-biology-cat3",
+      "title": "✨ اجابات الامتحان احياء 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/GbH3",
+      "fileSize": "31MB",
+      "id": "book-1789260301399",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:45:01.399Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-biology-cat3",
+      "title": "✨ الامتحان احياء اسئلة 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/mBhkzD",
+      "fileSize": "197MB",
+      "id": "book-1789260214326",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:43:34.326Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-biology-cat3",
+      "title": "✨ الامتحان أحياء شرح 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/4g0bfw",
+      "fileSize": "120",
+      "id": "book-1789260103667",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:41:43.667Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-english-cat3",
+      "title": "ميرسي فرنساوي 3ث 2027",
+      "description": "",
+      "fileUrl": "https://upfiles.com/ra6X",
+      "fileSize": "240 MB",
+      "id": "book-1789259796614",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:36:36.614Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-english-cat3",
+      "title": "جيم انجليزي 3ث 2027",
+      "fileUrl": "https://upfiles.com/OvIxeED",
+      "fileSize": "242 MB",
+      "description": "",
+      "id": "book-1789259502282",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:31:42.282Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-english-cat3",
+      "title": "العمالقه انجليزي 3ث الجزء الثاني 2027",
+      "fileUrl": "https://upfiles.com/DQDbO",
+      "fileSize": "118 MB",
+      "description": "",
+      "id": "book-1789259408005",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:30:08.005Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-english-cat3",
+      "title": "العمالقه انجليزي 3ث الجزء الاول 2027",
+      "fileUrl": "https://upfiles.com/GcU7",
+      "fileSize": "125MB",
+      "description": "",
+      "id": "book-1789259302578",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:28:22.578Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-english-cat3",
+      "title": "المعاصر انجليزي 3ث 2027",
+      "fileUrl": "https://upfiles.com/EuHI",
+      "fileSize": "147MB",
+      "description": "",
+      "id": "book-1789259190512",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:26:30.512Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "الأضواء عربي شرح 3ث 2027",
+      "fileUrl": "https://upfiles.com/EuHI",
+      "fileSize": "159 MB",
+      "description": "",
+      "id": "book-1789258861301",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:21:01.301Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "إجابات كتاب كيان عربي تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/7aoCZ",
+      "fileSize": "21 MB",
+      "description": "",
+      "id": "book-1789258726919",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:18:46.919Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "كتاب كيان عربي جزء البلاغة والقراءة والقصة تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/tKWMX9",
+      "fileSize": "94 MB",
+      "description": "",
+      "id": "book-1789258669257",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:17:49.257Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "كتاب كيان عربي الجزء التاني جزء النحو تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/NMhN3Oki",
+      "fileSize": "220 MB",
+      "description": "",
+      "id": "book-1789258579423",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:16:19.423Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "كتاب كيان عربي الجزء الأول جزء الادب والنصوص تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/XrOlE42",
+      "fileSize": "185 MB",
+      "description": "",
+      "id": "book-1789258459556",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:14:19.556Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "كتاب الإمتحان عربي اسئلة الجزء التاني تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/JUzT",
+      "fileSize": "168",
+      "description": "",
+      "id": "book-1789258308240",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:11:48.240Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "كتاب الإمتحان عربي اسئلة الجزء الأول تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/DE5loSv2",
+      "fileSize": "204 MB",
+      "description": "",
+      "id": "book-1789258199104",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:09:59.104Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-1",
+      "title": "كتاب الإمتحان عربي شرح تالتة ثانوي 2027 ❤️",
+      "fileUrl": "https://upfiles.com/wNmZZc",
+      "fileSize": "206 MB",
+      "description": "",
+      "id": "book-1789258059496",
+      "downloadCount": 0,
+      "createdAt": "2026-09-13T00:07:39.496Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "subjectId": "sub-cat3-hist",
+      "teacherName": "الإمتحان",
+      "title": "كتاب الإمتحان تاريخ أسئلة تالتة ثانوي 2027 🤎",
+      "fileUrl": "https://upfiles.com/jONymVuC",
+      "fileSize": "213MB",
+      "description": "",
+      "id": "book-1789383761715",
+      "downloadCount": 0,
+      "createdAt": "2026-09-14T11:02:41.715Z"
+    }
+  ],
+  "codes": [
+    {
+      "code": "STUDENT-2026-VIP",
+      "durationDays": 30,
+      "studentName": "أحمد محمود",
+      "note": "طالب متفوق - اشتراك شهر",
+      "isUsed": true,
+      "status": "active",
+      "createdAt": "2026-09-12T07:25:39.089Z",
+      "usedByChatId": "test-sim-1",
+      "usedByUsername": "student_demo",
+      "usedAt": "2026-09-12T07:28:30.580Z",
+      "expiresAt": "2026-10-12T07:28:30.580Z"
+    },
+    {
+      "code": "THANAWYA-90D-XYZ",
+      "durationDays": 90,
+      "studentName": "سارة خالد",
+      "note": "مجموعة الأحد والثلاثاء",
+      "isUsed": true,
+      "status": "active",
+      "createdAt": "2026-09-12T07:25:39.089Z",
+      "usedByChatId": "student-sim-101",
+      "usedByUsername": "student_sim",
+      "usedAt": "2026-09-12T07:35:23.122Z",
+      "expiresAt": "2026-12-11T07:35:23.122Z"
+    },
+    {
+      "code": "FULLYEAR-365D-PRO",
+      "durationDays": 365,
+      "studentName": "عمر إبراهيم",
+      "note": "اشتراك سنوي شامل كل الفصول",
+      "isUsed": true,
+      "usedByChatId": "123456789",
+      "usedByUsername": "omar_student",
+      "usedAt": "2026-09-07T07:25:39.089Z",
+      "expiresAt": "2027-09-07T07:25:39.089Z",
+      "status": "active",
+      "createdAt": "2026-09-07T07:25:39.089Z"
+    },
+    {
+      "code": "EXPIRED-TEST-CODE",
+      "durationDays": 7,
+      "studentName": "طالب تجريبي سابق",
+      "note": "منتهي الصلاحية للاختبار",
+      "isUsed": true,
+      "usedByChatId": "987654321",
+      "usedByUsername": "test_user",
+      "usedAt": "2026-08-28T07:25:39.089Z",
+      "expiresAt": "2026-09-04T07:25:39.089Z",
+      "status": "expired",
+      "createdAt": "2026-08-28T07:25:39.089Z"
+    },
+    {
+      "code": "STU-QYJ8-G4A9",
+      "durationDays": 30,
+      "studentName": "",
+      "note": "توليد سريع من الرئيسية",
+      "isUsed": true,
+      "status": "active",
+      "createdAt": "2026-09-12T07:41:06.984Z",
+      "usedByChatId": 7672632699,
+      "usedByUsername": "GO_7D",
+      "usedAt": "2026-09-12T07:41:12.449Z",
+      "expiresAt": "2026-10-12T07:41:12.449Z"
+    },
+    {
+      "code": "STU-Z3ZZ-RC35",
+      "durationDays": 5,
+      "studentName": "",
+      "note": "مجموعة الطلاب (#1)",
+      "isUsed": false,
+      "status": "unused",
+      "createdAt": "2026-09-12T07:45:15.403Z"
+    }
+  ],
+  "students": [
+    {
+      "chatId": "123456789",
+      "username": "omar_student",
+      "firstName": "عمر",
+      "lastName": "إبراهيم",
+      "codeUsed": "FULLYEAR-365D-PRO",
+      "startDate": "2026-09-07T07:25:39.089Z",
+      "expiresAt": "2027-09-07T07:25:39.089Z",
+      "status": "active",
+      "lastActive": "2026-09-12T07:25:39.089Z",
+      "downloadsCount": 8
+    },
+    {
+      "chatId": "987654321",
+      "username": "test_user",
+      "firstName": "كريم",
+      "lastName": "السيد",
+      "codeUsed": "EXPIRED-TEST-CODE",
+      "startDate": "2026-08-28T07:25:39.089Z",
+      "expiresAt": "2026-09-04T07:25:39.089Z",
+      "status": "expired",
+      "lastActive": "2026-09-04T07:25:39.089Z",
+      "downloadsCount": 3
+    },
+    {
+      "chatId": "test-sim-1",
+      "username": "student_demo",
+      "firstName": "طالب تجريبي",
+      "lastName": "",
+      "codeUsed": "STUDENT-2026-VIP",
+      "startDate": "2026-09-12T07:28:30.580Z",
+      "expiresAt": "2026-10-12T07:28:30.580Z",
+      "status": "active",
+      "lastActive": "2026-09-12T07:28:30.580Z",
+      "downloadsCount": 0
+    },
+    {
+      "chatId": "student-sim-101",
+      "username": "student_sim",
+      "firstName": "طالب تجريبي",
+      "lastName": "",
+      "codeUsed": "THANAWYA-90D-XYZ",
+      "startDate": "2026-09-12T07:35:23.122Z",
+      "expiresAt": "2026-12-11T07:35:23.122Z",
+      "status": "active",
+      "lastActive": "2026-09-12T07:35:23.122Z",
+      "downloadsCount": 0
+    },
+    {
+      "chatId": 7672632699,
+      "username": "GO_7D",
+      "firstName": "『 آلُِجٍوُهـرٍي 』",
+      "lastName": "",
+      "codeUsed": "STU-QYJ8-G4A9",
+      "startDate": "2026-09-12T07:41:12.449Z",
+      "expiresAt": "2026-10-12T07:41:12.449Z",
+      "status": "active",
+      "lastActive": "2026-09-12T07:41:12.449Z",
+      "downloadsCount": 1
+    }
+  ],
+  "settings": {
+    "botToken": "8993406574:AAEZL3pl_MaqIdk_SvBQp7HGRwdOJ-ElwfM",
+    "botUsername": "Brqbookbot",
+    "botName": "BRQ book 📖",
+    "welcomeMessage": "مرحباً بك في بوت الكتب والمذكرات الدراسية 📚\nنظام مخصص لتوفير جميع المناهج والمذكرات الدراسية للطلاب بجودة عالية وروابط سريعة.",
+    "contactMessage": "للحصول على كود اشتراك أو الاستفسار والدعم الفني، يرجى التواصل مع إدارة المنصة:\nالكود بسعر رمزي  مصاريف التشغيل فقط وهوا 20 ج \n💬 تليجرام: @BRQ_support",
+    "isWebhookSet": false,
+    "customMenuButtons": [
+      {
+        "id": "btn-1789200723414",
+        "label": "قناه تلي",
+        "icon": "⭐️",
+        "type": "text",
+        "value": "مرحباً بك في القناة الرسمية! يرجى التواصل مع الإدارة: @BRQ_support",
+        "order": 1
+      }
+    ],
+    "webhookUrl": ""
+  }
+}
